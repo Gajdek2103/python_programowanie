@@ -1,0 +1,48 @@
+# podstawy  korzystania z GIT
+
+
+## konfiguracja
+	
+	git config --global user.name=<nazwa>
+	git config --global user.email=<email>
+	
+
+## tworzenie nowego repozytorium
+
+W katalogu projektu piszemy:
+
+	git init
+
+## branch
+gałąź
+
+master
+devel
+
+git branch  # (sprawdza jaki branch)
+
+git checkout -b nazwa_brancha
+
+## commit
+
+punkt przywracania
+
+By utworzyć commit, musimy:
+
+0. sprawdzenie obecnego stanu
+
+    git status
+
+1.dodac pliki, które chcemy miec w commicie
+
+    git add <sciezka do pliku>
+
+Mozna dodac wszystkie pliki:
+     git add .
+	 
+a na koniec commit
+	git commmit
+	
+	git commit -m "Prosta zmiana"
+	
+## 
