@@ -5,5 +5,5 @@ c = int(input("Podaj wymiar h: "))
 
 v = a * b * c
 x = v > 1000
-print("Objetosc wynosi: " + str(v))
+print("Objetosc wynosi: ", v)
 print("Objetosc jest wieksza niz 1 litr; " + str(x))
