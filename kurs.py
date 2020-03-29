@@ -1,4 +1,4 @@
-print ("siema21")
+print ("siema")
 # dzielenie modulo
 print (10 % 3)
 # dzielenie całkowite
